@@ -1,0 +1,155 @@
+.container {
+  margin-bottom: 20px;
+  min-height: 100vh;
+
+  background-color: #f2f6ff;
+  text-align: center;
+}
+
+.category {
+  margin-top: 100px;
+  margin-left: 180px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  padding-top: 16px;
+  text-align: left;
+}
+
+.filter {
+  display: flex;
+}
+
+.filter img {
+  height: 30px;
+}
+
+.category div {
+  margin-top: 30px;
+}
+
+.active {
+
+  padding: 6px 14px;
+  width: auto;
+  color: #fff;
+  background-color: #0084ff;
+  margin: 5px;
+  border-radius: 15px;
+  border: 1px solid #0084ff;
+  cursor: pointer;
+}
+
+.nonactive {
+  padding: 6px 14px;
+  width: auto;
+  color: #0084ff;
+  margin: 5px;
+  border-radius: 15px;
+  border: 1px solid #0084ff;
+  cursor: pointer;
+}
+
+
+fa-sharp fa-solid fa-filter fa-flip-horizontal {
+  color: #0084ff;
+
+}
+
+.category h1 {
+
+  color: black;
+  font-weight: 600;
+  text-align: left;
+  padding-bottom: 20px;
+  margin: 0;
+  font-size: 30px;
+}
+
+.category p {
+  color: "black";
+  font-size: 10;
+  font-weight: 600;
+  margin-left: 8px;
+  padding-bottom: 20
+}
+
+.category span:hover {
+  color: #fff;
+  background-color: #0084ff;
+}
+
+.cardimage {
+  height: 176px;
+  width: 100%;
+}
+
+.cardimage img {
+  width: 100%;
+  height: 100%;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.cardtitle {
+  padding: 10px 24px;
+  font-size: 18px;
+  text-align: left;
+  margin: 0%;
+  font-weight: 600;
+  font-family: Raleway, sans-serif;
+}
+
+.cardpara {
+  padding: 10px 24px;
+  font-size: 14px;
+  font-weight: 400;
+  text-align: left;
+  line-height: 1.43;
+  color: rgba(0, 0, 0, 0.6);
+  margin: 4px 0;
+  font-family: Raleway, sans-serif;
+}
+
+/* ------------------done------------------- */
+#container {
+  margin-bottom: 20px;
+  color: blue;
+  text-align: center;
+}
+
+.author {
+  color: #0096ff;
+  font-size: 14px;
+  font-style: italic;
+  font-weight: 500;
+  text-align: left;
+  padding-left: 25px;
+  font-family: Raleway, sans-serif;
+}
+
+.date {
+  margin-left: 4px;
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 14px;
+  font-weight: 300;
+
+}
+
+.card {
+  background-color: #fff;
+  width: 24%;
+  display: inline-block;
+  margin: 10px;
+  border-radius: 5px;
+  border: 1px solid #95cbf1;
+  box-shadow: #fff;
+}
+
+.card div {
+  padding-top: 4px;
+  text-align: left
+}
+footer {
+  background-color: #172146;
+  padding: 80px 16%;
+}
